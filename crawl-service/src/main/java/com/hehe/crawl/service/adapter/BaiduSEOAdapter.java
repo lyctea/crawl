@@ -38,7 +38,7 @@ public class BaiduSEOAdapter extends AbsAdapter<SeoTask, String, FetchSeoVo>  {
 	
 	public void init(){
 		super.setThreadCount(1);
-		super.setConnectTimeout(50);
+		super.setConnectTimeout(200);
 		super.setSocketTimeout(20000);
 		super.setIsproxy(true);
 		super.setThreadTimeout(10000000);
